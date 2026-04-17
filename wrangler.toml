@@ -1,0 +1,21 @@
+name = "my-file-share"
+main = "worker.js"
+compatibility_date = "2024-01-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "file-share-db"
+database_id = "a9c49e00-7827-4e63-826a-85ad7d5dfee3"
+
+[[kv_namespaces]]
+binding = "KV"
+id = "c12de7d451c643bd982a6d6216e47f38"
+
+[vars]
+# 以下变量请在 Cloudflare Dashboard → Workers → Settings → Variables 中配置
+# TG_TOKEN = ""
+# TG_CHAT_ID = ""
+# ADMIN_PASSWORD = ""
+# BG_URL = ""
+# DARK_BG_URL = ""
+# LOGO_URL = ""
